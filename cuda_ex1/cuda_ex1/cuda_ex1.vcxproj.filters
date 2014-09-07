@@ -18,5 +18,13 @@
     <CudaCompile Include="Source.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
+    <CudaCompile Include="test.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.cuh">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

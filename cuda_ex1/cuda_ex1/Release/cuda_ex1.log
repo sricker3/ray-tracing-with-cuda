@@ -1,0 +1,35 @@
+﻿  
+  E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\Source.cu.obj "E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1\Source.cu" -clean 
+  Source.cu
+  
+  E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\test.cu.obj "E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1\test.cu" -clean 
+  test.cu
+  Compiling CUDA source file Source.cu...
+  
+  E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\Source.cu.obj "E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1\Source.cu" 
+  Source.cu
+  Compiling CUDA source file test.cu...
+  
+  E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\test.cu.obj "E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1\test.cu" 
+  test.cu
+  
+  E:\Documents\visual studio 2013\Git Projects\cuda_ex1\cuda_ex1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -dlink -o Release\cuda_ex1.device-link.obj -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cuda.lib cudart.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_20,code=sm_20  --machine 32 Release\Source.cu.obj Release\test.cu.obj 
+  cuda.lib
+  cudart.lib
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  Source.cu.obj
+  test.cu.obj
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  cuda_ex1.vcxproj -> E:\Documents\visual studio 2013\Git Projects\cuda_ex1\Release\cuda_ex1.exe
