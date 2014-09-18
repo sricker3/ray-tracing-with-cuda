@@ -11,8 +11,13 @@ CUDA_CALL int Ball::getRadius()
 	return radius;
 }
 
-
-__device__ int getRad()
+CUDA_CALL void Ball::setRadius(int r)
 {
-	return 3;
+	radius = r;
+}
+
+
+__device__ float getRad()
+{
+	return 1.0f/0.0f;
 }

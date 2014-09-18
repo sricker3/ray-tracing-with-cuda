@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="Source.cu">
+    <CudaCompile Include="test.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
-    <CudaCompile Include="test.cu">
+    <CudaCompile Include="Source.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
   </ItemGroup>

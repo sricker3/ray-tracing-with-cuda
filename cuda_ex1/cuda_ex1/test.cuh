@@ -14,9 +14,10 @@ class Ball
 
 		CUDA_CALL Ball(int r);
 		CUDA_CALL int getRadius();
+		CUDA_CALL void setRadius(int r);
 };
 
-__device__ int getRad();
+__device__ float getRad();
 
 #endif
 
